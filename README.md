@@ -2,7 +2,7 @@
 
 This project is hosts on [vercel](https://vercel.com/)
 
-``` You can open live page by folowing this link``` - [Project web page](https://develops-today-blog-app.now.sh/)
+``` You can open live page by folowing this link``` - [Project web page](https://edicasoft.imykhailychenko.vercel.app/)
 
 
 ## Technology Stack:
