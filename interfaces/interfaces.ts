@@ -23,6 +23,7 @@ export interface IUser {
     name: string;
     username: string;
     website: string;
+    phone?: string;
 }
 
 export interface IEditUser {
@@ -41,6 +42,5 @@ export interface IPost {
 }
 
 export interface IUserWithPosts extends IUser {
-    phone: string;
     posts: IPost[];
 }

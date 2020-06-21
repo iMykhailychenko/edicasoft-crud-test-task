@@ -1,4 +1,4 @@
-import { IUserData } from '../../../interfaces/interfaces';
+import { IUserWithPosts } from '../../../interfaces/interfaces';
 import { GET_SINGLE_START, GET_SINGLE_SUCCESS, GET_SINGLE_ERROR, ActionTypes } from '../../types';
 
 export const getSingleUserStart = (): ActionTypes => ({
@@ -6,7 +6,7 @@ export const getSingleUserStart = (): ActionTypes => ({
     payload: true,
 });
 
-export const getSingleUserSuccess = (posts: IUserData): ActionTypes => ({
+export const getSingleUserSuccess = (posts: IUserWithPosts): ActionTypes => ({
     type: GET_SINGLE_SUCCESS,
     payload: posts,
 });
