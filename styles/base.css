@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(40, 40, 40);
+    line-height: 1.4;
+}
+
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+
+picture,
+img {
+    display: block;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video,
+textarea {
+    vertical-align: middle;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button,
+a {
+    cursor: pointer;
+    background: none;
+    border: none;
+}

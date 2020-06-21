@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import './normalize.css';
+@import './base.css';
+@import './bootstrap.css';
+
+/* page banner */
+.jumbotron h1 {
+    word-break: break-word;
+}
+
+/* user card styles */
+.card.card-body .btn svg {
+    height: 15px;
+}
+
+.card.card-body .btn-group.btn-group-toggle {
+    width: min-content;
+}
+
+.card.card-body .card-mail {
+    color: var(--secondary);
+}
+
+.card.card-body .card-user {
+    color: inherit;
+}
+
+/* single user page */
+.map {
+    display: block;
+    width: 100%;
+    height: 350px;
+}
